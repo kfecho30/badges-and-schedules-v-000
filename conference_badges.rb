@@ -15,3 +15,6 @@ def assign_rooms(names)
     "Hello, #{name}! You'll be assigned to room #{num}!"
   end
 end
+
+def printer(names)
+end
