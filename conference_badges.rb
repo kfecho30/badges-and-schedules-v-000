@@ -18,6 +18,6 @@ end
 
 def printer(attendees)
   attendees.collect do |attendee|
-    puts Hello, my name is #{attendee}."
+    puts "Hello, my name is #{attendee}."
   end
 end
