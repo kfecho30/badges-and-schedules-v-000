@@ -17,7 +17,9 @@ def assign_rooms(names)
 end
 
 def printer(attendees)
-  attendees.collect do |attendee|
-    puts "Hello, my name is #{attendee}."
+  num = 0
+  names.collect do |name|
+    num += 1
+    puts "Hello, #{name}! You'll be assigned to room #{num}!"
   end
 end
